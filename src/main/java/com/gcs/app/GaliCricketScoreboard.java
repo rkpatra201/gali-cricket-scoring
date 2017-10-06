@@ -7,7 +7,8 @@ public class GaliCricketScoreboard {
 	public int calculateScore(List<Character> actions) {
 		int finalScore = 0;
 		int ballNum = 0;
-		int runsScoredOnPrevball = -1;
+		int runsScoredOnPrevball = -1; // runs scored by batsman on previous
+										// ball
 		for (Character action : actions) {
 			ballNum++;
 			if (Character.isDigit(action)) {
@@ -25,6 +26,10 @@ public class GaliCricketScoreboard {
 					finalScore = finalScore - 2;
 					System.out.println("As previous ball was also" + runsScoredOnPrevball
 							+ ", batsmen is out. Deduct 2 runs from team score. Team score: " + finalScore);
+					// needs to be reset when batsMen is out after facing 2
+					// consecutive dot balls
+					runsScoredOnPrevball = -1;
+					continue;
 				}
 
 				runsScoredOnPrevball = runScoredOnThisBall;
@@ -37,14 +42,11 @@ public class GaliCricketScoreboard {
 				finalScore = finalScore - 2;
 				System.out.println("Wicket fell in the ball number:" + ballNum
 						+ ", Deduct 2 runs from team score. Team score: " + finalScore);
-
+				runsScoredOnPrevball = -1;
 			}
 		}
 
 		return finalScore;
 	}
 
-	public boolean isBatsManOut(List<Character> options) {
-		return false;
-	}
 }
