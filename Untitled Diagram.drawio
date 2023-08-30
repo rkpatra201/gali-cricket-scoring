@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T03:12:56.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.1.2" etag="uV8r5Muf6nNOVbqCM6iz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T03:16:19.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="Z_bWjhWP2bZOmJ7DNXAG" version="21.1.2" type="github">
   <diagram name="Page-1" id="TACW8LY72tp6bV8MoGoq">
-    <mxGraphModel>
+    <mxGraphModel dx="979" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OC63QnNblr-pWhFgw4IT-1" value="INITIATE TRANSACTION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-2" value="QUOTE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-3" value="VALIDATE QUOTE IN PLATFORM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-4" value="VALIDATE CUSTOEMER WITH PARTNER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-5" value="VALIDATE USER AS STUDENT ONLY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-6" value="ADD RECIPIENT IF NOT EXISTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-7" value="CREATE TRANSACTION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC63QnNblr-pWhFgw4IT-8" value="CREATE PIX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
